@@ -13,8 +13,8 @@ SELECT avg(salary) FROM salaries
 
 -- Question 2: What year was the youngest person born in the company?
 -- Table: employees
--- Result: 1952-02-01
-SELECT min(birth_date) FROM employees
+-- Result: 1965-02-01
+SELECT max(birth_date) FROM employees
 
 -- BEFORE YOU START
 /*
