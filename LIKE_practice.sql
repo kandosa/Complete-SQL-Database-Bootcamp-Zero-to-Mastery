@@ -18,7 +18,7 @@ WHERE first_name LIKE 'M%'
 
 SELECT COUNT(*)
 FROM employees
-WHERE first_name ILIKE 'A%R'
+WHERE first_name LIKE 'A%R'
 
 /*
 * DB: Store
